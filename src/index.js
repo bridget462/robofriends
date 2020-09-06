@@ -8,7 +8,7 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 // to use predefined CSS package tachyons
 import "tachyons";
-import App from "./App.js";
+import App from "./containers/App.js";
 
 ReactDOM.render(
   <React.StrictMode>
