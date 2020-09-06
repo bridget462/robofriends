@@ -9,11 +9,11 @@ import * as serviceWorker from "./serviceWorker";
 // to use predefined CSS package tachyons
 import "tachyons";
 import CardList from "./CardList.js";
-import { robots } from "./robots.js";
+import App from "./App.js";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CardList robots={robots} />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
