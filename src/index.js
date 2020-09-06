@@ -1,12 +1,16 @@
 import React from "react";
+// ReactDOM is used to render on the web
+// use different package such as ReactNative based on the target screen
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+// default import extension are .js
+// so you can import App.js with "./App"
+import Hello from "./Hello.js";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App></App>
+    <Hello />
   </React.StrictMode>,
   document.getElementById("root")
 );
