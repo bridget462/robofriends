@@ -5,14 +5,14 @@ import ReactDOM from "react-dom";
 import "./index.css";
 // default import extension are .js
 // so you can import App.js with "./App"
-import Hello from "./Hello.js";
 import * as serviceWorker from "./serviceWorker";
 // to use predefined CSS package tachyons
 import "tachyons";
+import Card from "./Card.js";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Hello greeting={"Hello" + " React Ninja"} />
+    <Card></Card>
   </React.StrictMode>,
   document.getElementById("root")
 );
